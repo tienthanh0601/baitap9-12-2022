@@ -1,0 +1,33 @@
+.todo-item {
+    width: 250px;
+    border: 3px solid rgb(238, 123, 225);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    .title {
+        font-size: 18px;
+        margin: 4px 0;
+        color: black;
+        font-weight: bold;
+    }
+    .creator {
+        margin: 4px 0;
+        
+    }
+    .status {
+        margin: 4px 0;
+        padding-bottom: 14px;
+        font-weight: bold;
+        font-size: 21px;
+        border-bottom: 3px solid rgb(171, 24, 188);
+        color: forestgreen;
+    }
+    .description {
+        margin: 4px 0;
+        color: rgb(228, 101, 184);
+        font-weight: bolder;
+        font-style: italic;
+        margin-top: 12px;
+    }
+}
